@@ -128,7 +128,7 @@ jobs:
       - name: Push to DockerHub
         uses: docker/build-push-action@v4
         with:
-          context: ./gateway/
+          context: ./frontend/gateway/
           push: true
           
           tags: skrynch/taski_gateway:latest
